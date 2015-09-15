@@ -1,7 +1,5 @@
 'use strict';
 
-var React = require('react');
-
 var PropTypes = React.PropTypes;
 
 var POSITIONS = {
@@ -179,5 +177,3 @@ var Waypoint = React.createClass({
     return React.createElement('span', { style: { fontSize: 0 } });
   }
 });
-
-module.exports = Waypoint;
